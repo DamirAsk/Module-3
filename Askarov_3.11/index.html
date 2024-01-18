@@ -9,20 +9,28 @@
 </head>
 <body>
     <script>
-        function but1() {
-            var src = document.getElementById("gamediv");
-            var img = document.createElement("img");
-            img.src = "img.jpg";
-            src.appendChild(img);
-        }
+        document.body.addEventListener('click', e => {
+            if (!e.target.matches('button')) return
+            document.querySelector('.pic img').src = e.target.dataset.src
+
+            document.querySelectorAll('button').forEach(btn => btn.classList.remove('active'))
+            e.target.classList.add('active')
+        })
     </script>
-        <div id="gamediv">
-            <script type="text/javascript">
-                 insert();
-             </script>
-        </div>
-        <button onclick="but1();">Клик!</button>
+    <div class="pic">
+        <img src="">
+    </div>
 
+    <button data-src="i3.webp">
+        изображение 1
+    </button>
 
+    <button data-src="i2.webp">
+        изображение 2
+    </button>
+
+    <button data-src="i.webp">
+        изображение 3
+    </button>
 </body>
 </html>
