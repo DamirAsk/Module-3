@@ -1,0 +1,31 @@
+*,
+*:after,
+*:before {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+/*стили выше добавлены только для этого примера, в реальном проекте используйте normalize.css\reset.css*/
+#module-running-button {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-flow: row wrap;
+  place-content: center;
+}
+#module-running-button .cell {
+  text-align: center;
+  min-height: 50px;
+  line-height: 50px;
+  min-width: 33.3%;
+  /* border: 1px solid red;*/
+}
