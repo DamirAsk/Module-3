@@ -5,34 +5,138 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document.</title>
-    <link rel="stylesheet" href="style.css">
-
+    <title>Document</title>
 </head>
+<style>
+    .msg{
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        background: #20454B;
+        border-radius: 5px;
+        color: #eee;
+        font-size: 24px;
+    }
+</style>
 <body>
+    <!--CD --><p>Абзац</p>
+    <ul>
+        <li><b>Элемент списка</b></li>
+    </ul>
+    <table id="table_digs">
+        <tr>
+            <td>one</td><td>two</td>
+        </tr>
+    </table>
 
-    <div id="module-running-button">
-  <div class="cell">
-    <button id="Forest_Gamp">CLICK!</button>
-  </div>
-  <div class="cell">
-  </div>
-  <div class="cell">
-  </div>
-  <div class="cell">
-  </div>
-  <div class="cell">
-  </div>
-  <div class="cell">
-  </div>
-  <div class="cell">
-  </div>
-  <div class="cell">
-  </div>
-  <div class="cell">
-  </div>
+
+    <div id="div_id ">
+        <p>текст внутри блока див</p>
     </div>
+    <h1>О звездах</h1>
+    <div class="content-table">
+        <ul class="stars-list">
+            <li class="star">eewewe</li>
+            <li class="star">aafaf</li>
+            <li class="contact">fafa</li>
+        </ul>
+    </div>
+    <div id="comm">Сообщение от пользователя</div>
 
-<script src="script.js"></script>
+    <script>
+        // Навигация по дом
+        // console.log(document.documentElement,document.body,document.head) // дерево
+
+
+        // for (let child of document.body.childNodes) { // вывод эдентов ветки
+        //     console.log(child);
+        // }
+
+
+        // console.log(document.documentElement.firstChild,document.documentElement.lastChild)  // первый и последний дочерний элемент
+
+        // for (let child of document.body.children) { // вывод дочерних элементов
+             // console.log(child);
+        // }
+
+
+        // console.log(document.head.nextSibling) // следующий сосед в родительском узле
+        // console.log(document.body.previousSibling) // предыдущий сосед в родительском узле
+
+
+        // console.log(document.body.parentNode) //получение объета родителя
+
+
+        //lastElementChild //firstElementChild след сосед у узле и т.д
+
+
+        // console.log(table_digs.rows[0].cells[1].innerHTML) // доп свойства для таблиц
+
+
+        // Методы поиска элентов в дом
+
+
+            // console.log(document.getElementById('div_id ')) ссылка на див
+
+
+            // document.querySelector("ul.start-list>li"); //  первый подходящий селектор
+
+
+            // let list = document.querySelectorAll("ul.start-list>li") // список элементов подходящих под селектор
+            // for (let item of list) {
+            //     if (item.matches("li.star")) console.log(item); // проверяет подъодит элемент под данный селектор
+            // }
+
+
+            // let li = document.querySelector("li.star");
+            // console.log(li.closest(".stars-list")); // нахождение ближайшего предка по классу соответствующему селектора
+            // console.log(li.closest(".content-table"));
+            // console.log(li.closest(".h1"));
+            // if (document.querySelector("div.content-table").contains(document.querySelector("ul.stars-list"))) // является ли элемент ul дочерним по отношению div
+            //     console.log("ul in div")
+
+
+        //Свойство дом узлов
+        // console.log(document.body.constructor.name)
+        // console.log(document.body instanceof HTMLElement ) // узнаем к какому элемента относиться тот или иной узел
+
+
+        // console.dir(document.body) // выводит структура элемента body
+        // console.log(document.body.firstChild.nodeName) //содержит название дом узла TAGNAME МОЖНО ИСПОЛЬЗОВАТЬ ЯВЛ ЛИ ЭЛЕМЕНТ ТЕГОМ
+        // document.body.firstChild.nextSibling["innerHTML"] = "<u>Изменяем содержание</u>"
+        // console.log(document.body.firstChild.nextSibling["innerHTML"]) // выводим содержимое тега
+        // ___.outerHTML меняет и содержимое и тег
+
+
+        // console.log(document.body.firstChild["data"]) // выыодим содерживое комента также можно менять содержимое
+        // console.log(document.body.textContent) // содержит чистый текст без тегов также можно менять содержимое
+
+        // let comm = document.getElementById('comm')
+        // comm.hidden = true; //  скрывает данный элемент
+        // setInterval(()=> comm.hidden = ! comm.hidden,500);
+
+
+        /////////////////////
+
+
+        // let div = document.getElementById('comm');
+        // console.log(div.getAttribute('defit')); // получаем значение арибута
+        // div.setAttribute("defit","новое значение"); // устанавливаем новое значение
+        // console.log(div.getAttribute('defit'));
+        // div.attributes //содеожит все атрибуты comm
+        // hasAttribut проверяет наличие атрибуты
+        //removeAttribut удаляет атрибут
+
+
+        // озданеи и добавление дом элементов
+
+        // let div = document.createElement('div'); //создаем тег див
+        // div.className = 'msg'; //  присваиваем класс
+        // div.innerHTML = 'Важная информация'; // присваиваем строку
+        // document.body.append(div) // добавление в конец в список дочерних эллемнтов
+        // существуют еще методы prepend, before, after, replaceWith
+
+        // document.body.append(document.createTextNode('текстовые элемент')) // добавление текстового элемента
+    </script>
 </body>
 </html>
