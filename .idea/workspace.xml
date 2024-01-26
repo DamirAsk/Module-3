@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aac6c9e7-f8cb-47cf-82b7-32c429c962ba" name="Changes" comment="a">
+      <change afterPath="$PROJECT_DIR$/Askarov_itog/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Askarov_itog/index2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Askarov_3.11/s.js" beforeDir="false" afterPath="$PROJECT_DIR$/Askarov_3.11/s.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Askarov_itog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Askarov_itog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Askarov_itog/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Askarov_itog/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Askarov_itog/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Askarov_itog/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,10 +70,16 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;HTML&quot;,
       &quot;JavaScript&quot;
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\Module 3\Askarov_itog\index2.html" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -95,6 +101,12 @@
       <workItem from="1706037127350" duration="2874000" />
       <workItem from="1706041954560" duration="1516000" />
       <workItem from="1706112093889" duration="10285000" />
+      <workItem from="1706162535155" duration="103000" />
+      <workItem from="1706179477681" duration="1071000" />
+      <workItem from="1706196337250" duration="4318000" />
+      <workItem from="1706213700117" duration="3072000" />
+      <workItem from="1706253525461" duration="216000" />
+      <workItem from="1706299187858" duration="3438000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -176,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705605542929</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="a">
+      <option name="closed" value="true" />
+      <created>1706162569897</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706162569897</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

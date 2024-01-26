@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>00000000</h1>
+    <ul>
+        <li>AAAAAAAA</li>
+        <li>BBBBB</li>
+        <li>CCCCCC</li>
+    </ul>
+    <script>
+        // cозданеи и добавление дом элементов
+
+        // let div = document.createElement('div'); //создаем тег див
+        // div.className = 'msg'; //  присваиваем класс
+        // div.innerHTML = 'Важная информация'; // присваиваем строку
+        // document.body.append(div) // добавление в конец в список дочерних эллемнтов
+        // существуют еще методы prepend, before, after, replaceWith
+
+        // document.body.append(document.createTextNode('текстовые элемент')) // добавление текстового элемента
+        // let list = document.querySelector("ul")
+        // list.insertAdjacentHTML("beforebegin",'<p>dddddddd<hr>')
+        // list.insertAdjacentHTML("afterend",'<hr><p>>eeeeeeee');
+        // list.insertAdjacentHTML("afterbegin",'<li>ffffffff');
+        // list.insertAdjacentHTML("beforeend",'<li>ggggg'); //добавление тега в нужное место
+
+
+        // метод remove() удаляэт элемент
+        // cloneNode(True/False) создает клон  с дочерними эдементами или без них
+        // new DocumentFragment
+        //// Управление стилями
+        // elem.className // получение имени класса элемента
+        // elem.classList // list class
+        // elem.classList.add/remove/toggle/
+        // elem.style.стиль = ___
+        // elem.style.cssText = текст стилей
+        // getComputedStyle(elem,[псевдо элемент])
+
+        // метрики
+
+
+        // elem.clientWidth // содержит ширину клиентской области
+        // elem.clientHeight
+        // elem.scrollTop  можно  менять,elem.scrollLeft можно  менять ,elem.scrollWidth,elem.scrollHeight
+        // elem.offsetLeft//содержит смещение блока от левого/верхнего края
+        // elem.offsetParent
+        // elem.clientTop elem.clientLeft // дает значение border
+        // elem.offsetHeight, elem.offsetWidth // длина и ширина элемента
+
+
+        /////////////
+
+
+        // window.innerHeight,window.innerWidth // give full height and wight window browser
+        // document.documentElement.scrollWidth/scrollHeigt // высота и ширина html документа
+        // window.pageYOffset/pageXOffset //получение положения страницы по осям
+        // window.scrollBy(0,5)  // прокручивает страницу на х и у пикселей
+        // window.scrollTo(0,5) // прокручивает страницу до указанных коордиант
+        // elem.scrollIntoView(True/False) // делает чтобы элемент распологалс вверху или внизу страницы
+        // document.body.style.overflow = 'hidden' // запрет на скроллинг
+
+        //// Позитионирование элементов
+
+
+        // elem.getBoundingClientRect()//координаты и размеры тега относительно окна браузера
+        // document.elementFromPoint(x,y) // возвращает самый глубокий элемент в иерархии
+        // window.pageYOffset/pageXOffset //  высота и ширина прокручиной части документа
+
+        ////////
+        event.currentTarget // ссылается на объект в котором происходит событие
+    </script>
+</body>
+</html>

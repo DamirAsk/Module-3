@@ -1,1 +1,43 @@
+body{
+    background-color: red;
+    overflow: hidden;
+}
+#top,#down,#left{
+    position: absolute;
+    background: aqua;
+    left: 0;
+}
+#top{
+    width: 100%;
+    height: 20px;
+    top: 0
+}
+#left{
+    width: 20px;
+    height: 100%;
+}
+#down{
+    width: 100%;
+    height: 20px;
+    bottom: 0;
+}
+#bal{
+    top: 300px;
+    right: 0;
+    background: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    margin: -25px 0 0 -25px;
+}
+#bita{
+    position: absolute;
+    background: chartreuse;
+    top: 20px;
+    left: 100%;
+    height: 150px;
+    width: 20px;
+    margin: 0 0 0 -20px;
 
+}
